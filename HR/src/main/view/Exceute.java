@@ -7,35 +7,37 @@ public class Exceute {
 
 	public static void main(String[] args) {
 		//declaration
-		Employee e1 = new Employee();
-		Employee e2 = new Employee();
-		Employee e3 = new Employee();
+		Employee[] e = new Employee[3];
+		// initialization
+		for(int i=0; i< e.length; i++) {
+			e[i] = new Employee();
+		}
 		Printer p = new Printer();
 		//data entry
-		e1.fName = "Mohamed";
-		e1.sName = "Osama";
-		e1.gender = "M";
-		e1.age = 34;
-		e1.salary = 100000;
+		e[0].fName = "Mohamed";
+		e[0].sName = "Osama";
+		e[0].gender = "M";
+		e[0].age = 34;
+		e[0].salary = 100000;
+		e[0].grade = 5;
 		
-		e2.fName = "Heba";
-		e2.sName = "Wagdi";
-		e2.gender = "F";
-		e2.age = 24;
-		e2.salary = 25000;
+		e[1].fName = "Heba";
+		e[1].sName = "Wagdi";
+		e[1].gender = "F";
+		e[1].age = 24;
+		e[1].salary = 25000;
+		e[1].grade = 3;
 		
-		e3.fName = "Ali";
-		e3.sName = "Nader";
-		e3.gender = "M";
-		e3.age = 27;
-		e3.salary = 10000;
+		e[2].fName = "Ali";
+		e[2].sName = "Nader";
+		e[2].gender = "M";
+		e[2].age = 27;
+		e[2].salary = 10000;
+		e[2].grade = 1;
+		
 		//printing
-		p.print(e1, 5);
-		System.out.println("------------------------------");
-		p.print(e2, 3);
-		System.out.println("------------------------------");
-		p.print(e3, 1);
-		System.out.println("------------------------------");
+		p.print(e);
+		
 	}
 
 }

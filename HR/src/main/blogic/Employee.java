@@ -6,6 +6,7 @@ public class Employee {
 	public int age;
 	public double salary;
 	public String gender;
+	public int grade;
 	
 	public String printFullName () {
 		if (gender.equalsIgnoreCase("m")) {
