@@ -18,4 +18,6 @@ Project HR
                         class containing main method (7'ashabet el masra7) where you initialize employees and 
                          print the report
                          
-          
+Journal:
+     v0.1 initial release
+     v0.2 changing printer method to take employee array instead of employee instance
