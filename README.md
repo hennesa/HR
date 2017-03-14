@@ -1,23 +1,42 @@
 # HR
+
+
 HR project for learning Java @ AMIT with instructor Mohamed Hagras
 
 
-Project HR
+Project 
+
+HR
 -> Package main
+
      |-->Package blogic
+
      |      |--->class Employee
+
      |      |         class describing employee properties (first name, sur name, age, salary, gender) 
+
      |      |          and methods printFullName, printGrade, calculateNetSalary.
+
      |      |--->class Printer
+
      |               class contains one method that takes Employee instance and prints report
+
      |                 name: ----
+
      |                 grade: ----
+
      |                 net salary: ---
+
      |--->Package view
+
               |--->class Execute
-                        class containing main method (7'ashabet el masra7) where you initialize employees and 
+
+                        class containing main method (7'ashabet el masra7) where you initialize employees and
+ 
                          print the report
                          
 Journal:
+ 
      v0.1 initial release
+ 
      v0.2 changing printer method to take employee array instead of employee instance
